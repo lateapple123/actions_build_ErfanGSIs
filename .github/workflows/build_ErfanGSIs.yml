@@ -57,9 +57,10 @@ jobs:
        
        - name: Upload GSI to WeTransfer
          run: |
-              cd $GITHUB_WORKSPACE/ErfanGSIs/output
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer wet ./final/GSI.zip
+              curl -sl https://git.io/file-transfer | sh
+              ./tansfer gof final/GIS.zip
+              
+              
 
          
             
